@@ -5,6 +5,7 @@ en:
   home: "Home"
   login: "Log in"
   about: "About"
+  news: "News"
   text: "Ruby on Rails Tutorial"
   author: "Michael Hartl"
   help_page: "Rails Tutorial help page"
@@ -16,7 +17,8 @@ en:
   profile_updated: "Profile updated"
   update_fall: "Update fail!"
   check_emai: "Please check your email to activate your account"
-  title_email: "Account activation"
+  title_active_email: "Account activation"
+  title_password_email: "Password reset"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -48,6 +50,7 @@ en:
       content: "Update your profile"
       change: "Change"
     form:
+      title: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
@@ -71,8 +74,32 @@ en:
       link_sign_up_text: "Sign up now!"
       remember_me: "Remember me on this computer"
     create:
-      message: ""Account not activated. Check your email for the activation link.
+      message: "Account not activated. Check your email for the activation link."
   user_mailer:
-    account_activation: "Welcome to the Sample App! Click on the link below to activate your account:"
-    activate: "Activate"
-    hello: "Xin chào"
+    account_activation:
+      hello: "Hello"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      title: "Password reset"
+      p: "To reset your password click the link below:"
+      link: "Reset password"
+      content1: "This link will expire in two hours"
+      content2: "If you did not request your password to be reset, please ignore this email and your password will stay as it is"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update password"
+    create:
+      success: "Email sent with password reset instructions"
+      fail: "Email address not found"
+    update:
+      error: "can't be empty"
+      success: "Password has been reset"
+    check_expiration:
+      expired: "Password reset has expired"

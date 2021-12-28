@@ -17,7 +17,8 @@ vi:
   profile_updated: "Cập nhật thành công"
   update_fall: "Cập nhật thất bại"
   check_emai: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn"
-  title_email: "Kích hoạt tài khoản"
+  title_active_email: "Kích hoạt tài khoản"
+  title_password_email: "Đặt lại mật khẩu"
   account_activations:
     edit:
       activated: "Tài khoản đã được kích hoạt"
@@ -75,6 +76,30 @@ vi:
     create:
       message: "Tài khoản chưa kích hoạt. Kiểm tra email của bạn để ấn vào link."
   user_mailer:
-    account_activation: "Chào mwufng tới Sample App! Ấn vào link dưới đây để kích hoặt tài khoản của bạn:"
-    activate: "Activate"
-    hello: "Xin chào"
+    account_activation:
+      hello: "Xin chào"
+      content: "Chào mwufng tới Sample App! Ấn vào link dưới đây để kích hoặt tài khoản của bạn:"
+      activate: "Kích hoạt"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      p: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      link: "Đặt lại mật khẩu"
+      content1: "Liên kết này sẽ hết hạn sau hai giờ"
+      content2: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận"
+      submit: "Cập nhật mật khẩu"
+    create:
+      success: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      fail: "Không tìm thấy địa chỉ email"
+    update:
+      error: "Không thể trống"
+      success: "Mật khẩu đã được đặt lại"
+    check_expiration:
+      expired: "Đặt lại mật khẩu đã hết hạn"
