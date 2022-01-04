@@ -11,5 +11,10 @@ max_email: 255
 min_password: 6
 gravatar_link: "https://gravatar.com/emails"
 avatar_size: 50
-item_in_page: 20
+item_in_page: 10
 hours_expired: 2
+resize_images: 500
+max_content: 140
+image_type: ["image/jpeg", "image/gif", "image/png"]
+max_image_size: 5
+image_types: "image/jpeg,image/gif,image/png"

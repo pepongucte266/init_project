@@ -19,6 +19,8 @@ en:
   check_emai: "Please check your email to activate your account"
   title_active_email: "Account activation"
   title_password_email: "Password reset"
+  invalid_format: "must be a valid image format"
+  large_size: "should be less than 5MB"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -35,6 +37,7 @@ en:
     home:
       content: "This is the home page for the %{link} sample application."
       signup: "Sign up now!"
+      mf: "Micropost Feed"
     contact:
       content: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_page}."
       text: "contact page"
@@ -59,11 +62,19 @@ en:
     user:
       sure: "You sure?"
       delete: "Delete"
+    show:
+      microposts: "Microposts"
   error:
     error_valid: "The form contains %{error}"
     error: "error"
     user:
       not_found: "Not found user"
+  shared:
+    micropost_form:
+      submit: "Post"
+      placeholder: "Compose new micropost..."
+    user_info:
+      view: "view my profile"
   sessions:
     new:
       title: "Log in"
@@ -103,3 +114,15 @@ en:
       success: "Password has been reset"
     check_expiration:
       expired: "Password reset has expired"
+  microposts:
+    micropost:
+      post: "Posted %{time} ago."
+      sure: "You sure?"
+      delete: "Delete"
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+      fail: "Deleted fail"
+    correct_user:
+      invalid: "Micropost invalid"
