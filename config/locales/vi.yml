@@ -19,6 +19,8 @@ vi:
   check_emai: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn"
   title_active_email: "Kích hoạt tài khoản"
   title_password_email: "Đặt lại mật khẩu"
+  invalid_format: "phải là một định dạng hình ảnh hợp lệ"
+  large_size: "phải nhỏ hơn 5MB"
   account_activations:
     edit:
       activated: "Tài khoản đã được kích hoạt"
@@ -35,6 +37,7 @@ vi:
     home:
       content: "Đây là trang chủ cho %{link} sample application."
       signup: "Đăng ký ngay bây giờ !"
+      mf: "Micropost Feed"
     contact:
       content: "Liên hệ với %{text} về sample app tại %{contact_page}"
       text: "trang liên hệ"
@@ -59,11 +62,19 @@ vi:
     user:
       sure: "Bạn có chắc chắn không?"
       delete: "Xóa"
+    show:
+      microposts: "Các bài đăng"
   error:
       error_valid: "Hiện đang có %{error}"
       error: "lỗi"
       user:
         not_found: "Không tìm thấy người dùng"
+  shared:
+    micropost_form:
+      submit: "Đăng"
+      placeholder: "Compose new micropost..."
+    user_info:
+      view: "Xem thông tin của tôi"
   sessions:
     new:
       title: "Đăng nhập"
@@ -103,3 +114,15 @@ vi:
       success: "Mật khẩu đã được đặt lại"
     check_expiration:
       expired: "Đặt lại mật khẩu đã hết hạn"
+  microposts:
+    micropost:
+      post: "Đăng %{time} trước."
+      sure: "Bạn có chắc chắn không?"
+      delete: "Xóa"
+    create:
+      success: "Bài đăng đã được tạo"
+    destroy:
+      success: "Bài đăng đã xóa"
+      fail: "Xóa thất bại"
+    correct_user:
+      invalid: "Bài đăng không hợp lệ"
