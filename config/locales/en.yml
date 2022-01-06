@@ -21,6 +21,10 @@ en:
   title_password_email: "Password reset"
   invalid_format: "must be a valid image format"
   large_size: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   account_activations:
     edit:
       activated: "Account activated!"
@@ -64,6 +68,8 @@ en:
       delete: "Delete"
     show:
       microposts: "Microposts"
+    show_follow:
+      profile: "view my profile"
   error:
     error_valid: "The form contains %{error}"
     error: "error"

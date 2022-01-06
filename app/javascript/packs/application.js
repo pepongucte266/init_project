@@ -8,6 +8,8 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
+import jquery from "jquery";
+window.$ = window.jquery = jquery;
 require('./validate_image')
 Rails.start()
 Turbolinks.start()
