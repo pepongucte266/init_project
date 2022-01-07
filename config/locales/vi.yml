@@ -21,6 +21,10 @@ vi:
   title_password_email: "Đặt lại mật khẩu"
   invalid_format: "phải là một định dạng hình ảnh hợp lệ"
   large_size: "phải nhỏ hơn 5MB"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow: "Theo đõi"
+  unfollow: "Bỏ theo dõi"
   account_activations:
     edit:
       activated: "Tài khoản đã được kích hoạt"
@@ -64,6 +68,8 @@ vi:
       delete: "Xóa"
     show:
       microposts: "Các bài đăng"
+    show_follow:
+      profile: "xem hồ sơ của tôi"
   error:
       error_valid: "Hiện đang có %{error}"
       error: "lỗi"
